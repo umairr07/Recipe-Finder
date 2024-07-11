@@ -1,8 +1,28 @@
-# React + Vite
+# 🍳 Recipe Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project is a React-based web application for searching recipes, displaying recipe details dynamically, and allowing users to add recipes to favorites.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **🔍 Recipe Search:**
+
+  - Users can search for recipes by name or ingredient.
+  - Dynamic filtering of recipes based on search queries.
+
+- **📜 Recipe Details Page:**
+
+  - Clicking on a recipe shows detailed information including ingredients, instructions, and nutritional information (if available).
+
+- **❤️ Favorites Functionality:**
+
+  - Users can add recipes to a favorites list.
+  - Implement a favorites page where users can view and manage their saved recipes.
+
+## Tech Stack:
+
+- **Frontend:** React.js
+- **State Management:** React Hooks (useState, useEffect, useContext)
+- **Styling:** Tailwind CSS
+- **API Integration:** Utilize APIs for fetching recipes and recipe details.
